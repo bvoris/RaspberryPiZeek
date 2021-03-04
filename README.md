@@ -24,13 +24,13 @@ Change password
 Enable SSH
 Connect wifi 
   ```Bash
-  'sudo iwlist wlan0 scan'
+  sudo iwlist wlan0 scan
    ```
 Expand file system
 
 #Run Updates and Upgrades
   ```Bash
-  'sudo apt update && upgrade -y'
+  sudo apt update && upgrade -y
    ```
   
 Reboot
@@ -38,11 +38,13 @@ Reboot
 
 ## Check/enable promiscuous mode
 Force eth0 into promiscuous mode 
+  ```Bash
   ifconfig eth0 promisc
-
+  ```
 Run netstat -i to determine if promiscuous mode has been enabled
+ ```Bash
   netstat -i
-
+  ```
 
 
 ## Install Pre-Reqs for Zeek
@@ -50,27 +52,33 @@ https://docs.zeek.org/en/current/install.html#
 
 ## Required Dependencies:
 Install all required Zeek dependencies
+  ```Bash
   sudo apt-get install cmake make gcc g++ flex bison libpcap-dev libssl-dev python3 python3-dev swig zlib1g-dev -y
-
+  ```
 ## Optional Dependences:
-Install option dependencies
+Install optional dependencies
+  ```Bash
 	sudo apt-get install python3-git python3-semantic-version libkrb5-dev libjemalloc-dev google-perftools -y
 	sudo apt-get install libgoogle-perftools4 perl curl libtcmalloc-minimal4 libgoogle-perftools-dev -y
 	sudo apt-get install libtcmalloc-minimal4 -y
 	sudo apt-get install libmaxminddb-dev -y 
-		(instructions: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation)
+			(instructions: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation)
 	sudo apt-get install sendmail sendmail-cf m4 -y
 		(Instructions: https://tecadmin.net/install-sendmail-on-debian-9-stretch/ sudo sendmailconfig to config later )
-
+  ```
 ## Install Zeek:
+```Bash
 git clone --recursive https://github.com/zeek/zeek
 cd zeek
 ./configure
 make
 make install
-
+```
+  
 ## Run Zeekctl to setup Zeek
+```Bash
 /usr/local/zeek/bin $ sudo python3 zeekctl
+```
 install
 
 ## Connect with me at
