@@ -62,10 +62,11 @@ Install optional dependencies
 	sudo apt-get install libgoogle-perftools4 perl curl libtcmalloc-minimal4 libgoogle-perftools-dev -y
 	sudo apt-get install libtcmalloc-minimal4 -y
 	sudo apt-get install libmaxminddb-dev -y 
-			(instructions: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation)
 	sudo apt-get install sendmail sendmail-cf m4 -y
-		(Instructions: https://tecadmin.net/install-sendmail-on-debian-9-stretch/ sudo sendmailconfig to config later )
   ```
+  Instructions for Geo-IP: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation
+  Instructions for SendMail: https://tecadmin.net/install-sendmail-on-debian-9-stretch/ 
+  
 ## Install Zeek:
 ```Bash
 git clone --recursive https://github.com/zeek/zeek
