@@ -64,7 +64,7 @@ Install optional dependencies
 	sudo apt-get install libmaxminddb-dev -y 
 	sudo apt-get install sendmail sendmail-cf m4 -y
   ```
-  Instructions for Geo-IP: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation
+  Instructions for Geo-IP: https://docs.zeek.org/en/current/frameworks/geoip.html#geolocation<BR />
   Instructions for SendMail: https://tecadmin.net/install-sendmail-on-debian-9-stretch/ 
   
 ## Install Zeek:
