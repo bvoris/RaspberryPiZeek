@@ -3,6 +3,14 @@ Deployment of Zeek on a Raspberry Pi 4B
 This is some of my work deploying Zeek NSM on a Raspberry Pi
 Zeek can be found here: https://github.com/zeek
 
+<img alt="GitHub" src="https://img.shields.io/github/license/bvoris/RaspberryPiZeek">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/bvoris/RaspberryPiZeek">
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/bvoris/RaspberryPiZeek/total">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/bvoris/RaspberryPiZeek">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bvoris/RaspberryPiZeek">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/bvoris/RaspberryPiZeek">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bvoris/RaspberryPiZeek">
+
 ## Initial Deployment:
 Install Raspbian Lite
 https://www.raspberrypi.org/documentation/installation/installing-images/
@@ -60,3 +68,17 @@ make install
 ## Run Zeekctl to setup Zeek
 /usr/local/zeek/bin $ sudo python3 zeekctl
 install
+
+## Connect with me at
+
+<a href="https://twitter.com/HMInfoSecViking?ref_src=twsrc%5Etfw"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/twitter.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT></a>
+
+<a href="https://www.linkedin.com/in/brad-voris" target="_blank"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/linkedin.png" WIDTH=10% HEIGHT=4% ALIGN=RIGHT></a>
+
+<BR /><BR />
+<BR /><BR />
+
+<A HREF="https://www.victimoftechnology.com">Victim Of Technology<A />
+<BR /><BR />
+<A HREF="https://www.cyberforgesecurity.com">Cyber Forge Security, Inc.<A />
+<BR /><BR />
