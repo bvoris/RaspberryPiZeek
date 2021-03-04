@@ -1,4 +1,4 @@
-# RaspberryPiZeek
+# Raspberry Pi Zeek
 Deployment of Zeek on a Raspberry Pi 4B
 This is some of my work deploying Zeek NSM on a Raspberry Pi
 Zeek can be found here: https://github.com/zeek
