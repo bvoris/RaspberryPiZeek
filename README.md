@@ -16,8 +16,9 @@ https://www.raspberrypi.org/documentation/installation/installing-images/
 
 ## Management Configuration:
 Majority of this can be completed via Raspi-config
-  'sudo raspi config'
-
+  ```Bash
+  sudo raspi config
+  ```
 Change hostname
 Change password
 Enable SSH
