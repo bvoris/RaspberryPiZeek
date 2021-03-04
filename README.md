@@ -17,17 +17,21 @@ https://www.raspberrypi.org/documentation/installation/installing-images/
 ## Management Configuration:
 Majority of this can be completed via Raspi-config
   ```Bash
-  sudo raspi config
+  sudo raspi-config
   ```
 Change hostname
 Change password
 Enable SSH
 Connect wifi 
+  ```Bash
   'sudo iwlist wlan0 scan'
+   ```
 Expand file system
 
 #Run Updates and Upgrades
+  ```Bash
   'sudo apt update && upgrade -y'
+   ```
   
 Reboot
 
