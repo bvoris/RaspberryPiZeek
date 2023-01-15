@@ -71,16 +71,29 @@ Install optional dependencies
 ```Bash
 git clone --recursive https://github.com/zeek/zeek
 cd zeek
-./configure
+./configure --prefix=/opt/zeek --build-type=release
 make
-make install
+make install-aux
 ```
-  
+## Give the current user (pi) ownership of the Zeek binary
+```Bash
+sudo chown -R pi:pi /opt/zeek
+sudo chmod 750 /opt/zeek
+```
+## Add the Zeek binary path to the bottom of the user profile file - PATH="/opt/zeek/bin:$PATH"
+```Bash
+nano ~/.profile
+
+source ~/.profile
+```
 ## Run Zeekctl to setup Zeek
 ```Bash
-/usr/local/zeek/bin $ sudo python3 zeekctl
+zeekctl
 ```
-install
+[zeekctl] install
+[zeekctl] deploy
+[zeekctl] status
+[zeekctl] debug
 
 ## Connect with me at
 
